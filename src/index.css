@@ -11,7 +11,7 @@
   font-weight: 400;
 
   color-scheme: light dark;
-  color: rgba(255, 255, 255, 0.87);
+  color: rgba(255, 255, 255, 0.947);
   background-color: rgb(15, 17, 21);
 
   font-synthesis: none;
@@ -36,7 +36,6 @@ body {
 }
 
 h1 {
-  font-size: 3.2em;
   line-height: 1.1;
 }
 
