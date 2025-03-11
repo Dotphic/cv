@@ -5,6 +5,7 @@ export default function Section({ children, background }) {
     backgroundImage: `url(${background})`,
     backgroundSize: "cover",
     backgroundPosition: "center",
+    // backgroundAttachment: "fixed", // Optional: creates parallax effect
   };
 
   return (

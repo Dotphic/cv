@@ -10,7 +10,7 @@ export default function NavBar() {
 
   return (
     <nav className="navbar">
-      <div className="logo">Logo</div>
+      <div className="logo">Dotphic</div>
       <div className={`nav-links ${isOpen ? "open" : ""}`}>
         <ul>
           <li>Home</li>
