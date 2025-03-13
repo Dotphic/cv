@@ -13,9 +13,16 @@ export default function NavBar() {
       <div className="logo">Dotphic</div>
       <div className={`nav-links ${isOpen ? "open" : ""}`}>
         <ul>
-          <li>Home</li>
-          <li>Contact</li>
-          <li>Works</li>
+          <li>
+            <a href="#">Home</a>
+          </li>
+          <li>
+            <a href="#about">Contact</a>
+          </li>
+          <li>
+            {" "}
+            <a href="#">Works</a>
+          </li>
         </ul>
       </div>
       <div className="hamburger" onClick={toggleMenu}>

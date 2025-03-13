@@ -24,10 +24,97 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+
+  .hero-container {
+
+    width: 100%;
+    height: 60%;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    background-image: radial-gradient(circle, rgba(0, 0, 0, 0.504) 1px, transparent 1px);
+    background-size: 4px 4px;
+    backdrop-filter: blur(3px);
+    border-color: var(--border);
+    outline-color: color-mix(in oklab, var(--ring)50%, transparent);
+    mask: radial-gradient(circle, rgba(0, 0, 0, 1) 10%, rgba(0, 0, 0, 0) 70%, rgba(0, 0, 0, 0) 100%);
+  }
+
+}
+
+.hero-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
 .title-text {
-  font-size: 5rem;
-  font-weight: 800;
+
+  padding-inline: 3rem;
+
+  font-size: 3rem;
+  font-weight: 700;
+  line-height: 1.1;
+
+  text-transform: uppercase;
+  text-align: center;
+
+  color: #fff;
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+
+}
+
+.title-text-aka {
+  display: flex;
+  align-items: start;
+  padding: 0;
+  line-height: 0.6;
+}
+
+
+.title-text-comic {
+  font-family: "Bangers";
+  font-size: 9rem;
+  transition: text-shadow 0.3s ease, transform 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  text-shadow: 3px 3px 0 #000, 6px 6px 0 #555;
+  transform: scale(1.05);
+
+
+
+  /* &:hover {} */
+}
+
+.button-cta {
+
+  /* width: 100%; */
+  margin-top: 4rem;
+
+  font-family: inherit;
+  font-size: 1.5rem;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+
+  background-color: rgb(255, 255, 255);
+  color: #000;
+  border: none;
+  border-radius: 0px;
+  padding: 0.5rem 2.5rem;
+
+  cursor: pointer;
+
+  z-index: 99999;
+
+  transition: all 0.1s cubic-bezier(0.165, 0.84, 0.44, 1);
+
+  &:hover {
+    background-color: rgb(14, 99, 248);
+    color: #fff;
+
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+
+    transform: translateY(-2px);
+  }
 }
