@@ -27,7 +27,9 @@ function App() {
             <h1 className="title-text">Robel T. Sebsibe</h1>
             <h2 className="title-text-aka">
               {/* <span>aka</span> */}
-              <span className="title-text-comic">Dotphic</span>
+              <span data-text="Dotphic" className="title-text-comic">
+                Dotphic
+              </span>
             </h2>
             <button className="button-cta">About</button>
           </div>
