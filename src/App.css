@@ -85,6 +85,7 @@
 .title-text-comic {
     position: relative;
     margin-top: 2rem;
+    margin-left: -15px;
 
     font-family: "Kabisat", "Bangers";
     font-size: 39px;
