@@ -58,19 +58,23 @@ export default function Footer() {
           </p>
 
           <div className="footer-social">
-            <a href="#" className="footer-social-link">
+            <a href="#" className="footer-social-link link-external">
               Twitter
             </a>
-            <a href="#" className="footer-social-link">
+            <a href="#" className="footer-social-link link-external">
               Instagram
             </a>
-            <a href="#" className="footer-social-link">
+            <a href="#" className="footer-social-link link-external">
               LinkedIn
             </a>
           </div>
           <p className="footer-copyright">
             powered by Injera. Made by{" "}
-            <a href="https://github.com/NatnaelTaddese" target="_blank">
+            <a
+              href="https://github.com/NatnaelTaddese"
+              target="_blank"
+              className="link-external"
+            >
               NAT
             </a>
           </p>
