@@ -11,6 +11,7 @@ import FigureFive from "./assets/backgrounds/Figure-05.jpg";
 import FigureSix from "./assets/backgrounds/Figure-06.jpg";
 import FigureSeven from "./assets/backgrounds/Figure-07.jpg";
 import FigureEight from "./assets/backgrounds/Figure-08.jpg";
+import Footer from "./components/Footer";
 
 function App() {
   return (
@@ -37,6 +38,7 @@ function App() {
       </Section>
       <Section background={FigureFour} id={"about"}></Section>
       <Section background={FigureSix}></Section>
+      <Footer />
     </>
   );
 }
