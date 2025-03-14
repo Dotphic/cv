@@ -3,19 +3,19 @@ import "./Footer.css";
 
 const links = [
   {
-    title: "Features",
+    title: "Portfolio",
     href: "#",
   },
   {
-    title: "Solution",
+    title: "Showcase",
     href: "#",
   },
   {
-    title: "Customers",
+    title: "Music",
     href: "#",
   },
   {
-    title: "Pricing",
+    title: "Contact",
     href: "#",
   },
   {
@@ -36,8 +36,8 @@ export default function Footer() {
           <div className="footer-branding">
             <div className="logo">Dotphic</div>
             <p className="footer-description">
-              Modern, accessible portfolio website showcasing my work and
-              expertise.
+              I make music, art, designs, I'm that guy she tells you not to
+              worry about
             </p>
           </div>
           <nav className="footer-nav">
@@ -62,7 +62,7 @@ export default function Footer() {
               Twitter
             </a>
             <a href="#" className="footer-social-link">
-              GitHub
+              Instagram
             </a>
             <a href="#" className="footer-social-link">
               LinkedIn
@@ -70,7 +70,9 @@ export default function Footer() {
           </div>
           <p className="footer-copyright">
             powered by Injera. Made by{" "}
-            <a href="https://github.com/NatnaelTaddese">NAT</a>
+            <a href="https://github.com/NatnaelTaddese" target="_blank">
+              NAT
+            </a>
           </p>
         </div>
       </div>
