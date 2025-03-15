@@ -5,6 +5,8 @@
     font-style: normal;
 }
 
+/* #ffbb00 yellow*/
+
 #root {
     position: relative;
 }
@@ -25,6 +27,7 @@
 }
 
 .hero-content {
+    position: relative;
     height: 100vh;
     display: flex;
     flex-direction: column;
@@ -128,6 +131,8 @@
 }
 
 .button-cta {
+    position: absolute;
+    bottom: 5rem;
     /* width: 100%; */
     margin-top: 4rem;
 
