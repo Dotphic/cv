@@ -42,7 +42,8 @@ function App() {
               animate={isInView ? { opacity: 1, y: 0 } : {}} // Animate when in view
               transition={{ duration: 0.8, ease: "easeOut" }}
             >
-              Robel T. Sebsibe
+              {/* Robel T. Sebsibe */}
+              Tennu likes boys
             </motion.h1>
             <h2 className="title-text-aka">
               {/* <span>aka</span> */}
