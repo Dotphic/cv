@@ -38,7 +38,7 @@ export default function Hero() {
             Dotphic
           </motion.span>
         </h2>
-        <button className="button-cta">About</button>
+        <button className="button-cta">Let's Talk</button>
       </div>
     </div>
   );
